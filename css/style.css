@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+.nopadding{
+padding: 0 !important;
+}
+
+.nomargin{
+  margin:0 !important;
+}
+.dvfooter{
+  min-height: 500px;
+}
+.mb-4{
+  margin-bottom: 4%;
+}
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(250,250,250,0.8);
+    z-index: 1;
+}
+
+.imagen { 
+  width: 150px;
+  height: 150px;
+  border-radius: 150px; 
+  -webkit-border-radius: 150px; 
+  -moz-border-radius: 150px; 
+  background: url(../img/foto-de-perfil.jpg) 
+  no-repeat; 
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1.0); 
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+}
+
+.contenedor{ 
+     background-color: rgb(255, 255, 255);
+     -webkit-background-color: rgb(255, 255, 255); 
+     -moz-background-color: rgb(255, 255, 255);
+     padding: 5px; 
+     width: 300px; 
+     border-radius: 150px; 
+     -webkit-border-radius: 150px; 
+     -moz-border-radius: 150px; 
+     box-shadow: 1px 1px 10px rgb(75, 75, 75);
+    
+}
+
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  position: relative;
+  display: block;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+.card-body, .card-footer {
+  padding: 1.25rem;
+}
+
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+} 
+.bg-dark {
+   color: #f8f8f8;
+    background-color: #343a40!important;
+}
