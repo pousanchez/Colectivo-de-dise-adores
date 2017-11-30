@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.nopadding{
+	padding: 0px !important
+}
+
+.navbar-inverse{
+	border:none!important;
+	border-radius: 0!important;
+	background: rgb(87, 87, 87) !important
+}
+
+
+
+.nomargin{
+	margin: 0px !important
+}
+
+.pull-right{
+	float: right;
+}
+
+@media (max-width:768px){
+	.pull-right{
+		float: left !important;
+	}
+	.w100{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+}
+.hamburger {
+	position: fixed;
+	top: 70px;
+	z-index: 999;
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-left: 15px;
+	background: transparent;
+	border: none;
+}
+
+/*@media (min-width: 1200px){
+	/*monitores grandes*/
+/*}
+*//*@media (min-width: 992px){
+	/*monitores mediana*/
+/*}*/
+/*@media (min-width: 768px){
+	.pull-right{
+		float: left !important;
+	}
+	monitores baja gama
+}*/
+/*@media (min-width: 576px){
+	/*monitores alta gama*/
+/*}*/
+/*@media (min-width: 0px)and(max-width: 575px){
+	/*monitores baja y media gama*/
+/*}*//**/
+.navbar-inverse{
+	background: rgb(128, 18, 0)!important; 
+	border: 1px solid rgb(215, 255, 93)!important;
+
+	/*border: none !important; para quitar el borde*/
+}
+.active > a{
+	background: rgb(145, 158, 46)!important;
+	 /*para cambiar el color de cuadro de home*/
+	 color: rgb(76, 82, 33) !important; /*para cambiar color de letra*/
+}
+ul > li > a{
+	color: rgb(55, 123, 33)!important;
+	font-size: 12pt !important;
+	font-family: arial !important;
+}
+.navbar-toggle{ /*para cambiar color a las 3 lineas*/
+background: rgb(73, 107, 43)!important;
+border: 1px solid rgb(16, 92, 33)!important;
+}
+.navbar-nav > li > a:hover{
+	color: rgb(253, 253, 253)!important; /*para cambiar el color de la letra del menu*/
+	}
+	.navbar{
+		margin-bottom: 0px !important;
+	}
+	.content-section-a {
+	padding: 50px 0;
+	background-color: rgb(248, 248, 248);
+
+}
+
+.content-section-b {
+	padding: 50px 0;
+	border-top: 1px solid rgb(231, 231, 231);
+	border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto; 
+}
+
+.banner{
+	padding: 100px 0;
+	color: rgb(248, 248, 248);
+	background: url("../img/insted.jpg") no-repeat center;
+	background-size: cover; 
+}
+.py-5{
+	padding-top: 3rem!important;
+	padding-bottom: 4rem!important;  
+}
+.bg-dark{
+	color: rgb(243, 243, 243);
+	background-color: rgb(0, 0, 0)!important;
+}
+.section >{
+	background: rgb(213, 255, 131) !important;
+
+	
