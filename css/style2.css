@@ -94,7 +94,7 @@ border: 1px solid rgb(16, 92, 33)!important;
 	}
 	.content-section-a {
 	padding: 50px 0;
-	background-color: rgb(248, 248, 248);
+	background-color: rgb(212, 218, 118);
 
 }
 
@@ -126,4 +126,32 @@ border: 1px solid rgb(16, 92, 33)!important;
 .section >{
 	background: rgb(213, 255, 131) !important;
 
-	
+}
+
+	.img-fluid{
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  position: relative;
+  display: block;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(201, 114, 0);
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+.card-body, .card-footer {
+  padding: 1.25rem;
+}
+
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+} 
+.bg-dark {
+   color: #f8f8f8;
+    background-color: #343a40!important;
+}
