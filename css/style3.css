@@ -1,0 +1,107 @@
+>
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nopadding{
+	padding: 0px !important;
+}
+
+.navbar-inverse{
+	border:none !important;
+	background: rgb(0, 0, 0) !important;
+	border-radius: 0 !important;
+}
+
+
+}
+
+.nomargin{
+	margin: 0px !important;
+}
+
+.pull-right{
+	float: right;
+}
+
+@media (max-width:768px){
+	.pull-right{
+		float: left !important;
+	}
+	.w100{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+}
+
+.active > a{
+	background: rgb(39, 105, 83) !important;
+	color: rgb (0, 0, 0) !important;
+}
+
+ul > li > a{
+	color: rgb( 248, 235, 124) !important;
+	font-size: 12pt !important;
+	font-family: arial !important;
+}
+
+.navbar-nav > li > a{
+	color: rgb(248, 235, 124) !important;
+	font-size: 12pt !important;
+
+}
+
+.navbar-toggle{
+	background: rgb(19, 79, 22) !important;
+	border:none !important;
+}
+
+.navbar-nav > li:hover > a{
+	background: rgb(19, 79, 22)!important;
+}
+
+.navbar{
+	margin-bottom:  0px !important;
+}	
+
+.content-section-a {
+	padding: 50px 0;
+	background-color: rgb(248, 248, 248);
+
+}
+
+.content-section-b {
+	padding: 50px 0;
+	border-top: 1px solid rgb(231, 231, 231);
+	border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto; 
+}
+
+.banner{
+	padding: 100px 0;
+	color: rgb(248, 248, 248);
+	background: url("../img/piedepagina.jpg") no-repeat center;
+	background-size: cover; 
+}
+.py-5{
+	padding-top: 3rem!important;
+	padding-bottom: 4rem!important;  
+}
+.bg-dark{
+	color: rgb(243, 243, 243);
+	background-color: rgb(9, 9, 9)!important;
+
+}
+.pie{
+	color: rgb( 248, 235, 124) !important;
+	font-size: 12pt !important;
+	font-family: arial !important;
+}
